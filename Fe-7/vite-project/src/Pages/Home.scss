@@ -1,0 +1,280 @@
+.Herosection {
+    width: 100%;
+    padding-top: 200px;
+    background-color: darkmagenta;
+
+    .Herosection_container {
+        display: flex;
+
+        .Herosection_div1 {
+            display: flex;
+            align-items: end;
+            display: flex;
+            align-items: end;
+
+         
+        }
+
+        .Herosection_div2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .Herosection_div2_text1 {
+                height: 40px;
+                display: flex;
+                margin-bottom: 20px;
+                align-items: end;
+
+                .Herosection_div2_text1_1 {
+                    color: white;
+                    font-size: 20px;
+                    margin-right: 20px;
+
+                }
+
+                .Herosection_div2_text1_2 {
+                    font-size: 27px;
+                    color: white;
+                    font-weight: 600;
+                }
+            }
+
+            .Herosection_div2_text2 {
+                width: 300px;
+                height: 100px;
+                color: white;
+                font-weight: 500;
+                font-size: 32px;
+            }
+
+            .Herosection_div2_btn {
+                width: 200px;
+                height: 30px;
+                border: none;
+                background-color: white;
+                border-radius: 20px;
+                color: black;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .Herosection {
+        .Herosection_container {
+            display: flex;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding-left: 23px;
+
+            .Herosection_div1_img {
+                max-width: 200px;
+            }
+
+            .Herosection_div2 {
+                margin-top: 60px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+
+
+
+
+.Middlesection {
+    max-width: 2500px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+
+    .Middlesection_container {
+        max-width: 1600px;
+        display: flex;
+        justify-content: center;
+
+        .Middlesection_div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 220px;
+
+            .Midddlesection_div_text1 {
+                font-size: 22px;
+                color: black;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+
+            .Midddlesection_div_text2 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 100px;
+            }
+
+            .Middlesection_div_img {
+                display: flex;
+                gap: 30px;
+
+                .Middlesection_div_img1 {
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .Middlesection_div_img1_1 {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.Fourthsection {
+    max-width: 2500px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    .Fourthsection_container {
+        margin-top: 50px;
+        
+        max-width: 1600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .Fourthsection_div {
+          max-width: 1600px;
+            .Fourthsection_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .Fourthsection_text1 {
+                    font-size: 32px;
+                    color: black;
+                    font-weight: 800;
+
+                }
+
+                .Fourthsection_text2 {
+                    font-size: 16px;
+                    color: black;
+                    margin-top: 12px;
+                }
+            }
+            .Fourthsection_card{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 45px;
+                gap: 32px;
+                margin-bottom: 60px;
+                max-width: 1600px;
+                .Card{
+                    display: flex;
+                    flex-direction: column;
+                   i{
+                        position: absolute;
+                        margin-top: 20px;
+                    }
+                    button{
+                        background-color: blue;
+                        color: white;
+                        font-weight: 600;
+                        border: none;
+                        border-radius: 6px;
+                        height: 30px;
+                        width: 100px;
+                        margin-bottom: 2px;
+                        a{
+                            color: white;
+                        }
+                    }
+                     .Card_div1{
+                        font-size: 22px;
+                        color: black;
+                        font-weight: 700;
+                        margin-top: 12px;
+                     }
+                     .Card_div2{
+                        font-size: 16px;
+                        color: black;
+                        margin-top: 12px;
+                     }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.Thirdsection {
+    max-width: 2500px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkmagenta;
+    .Thirdsection_container {
+        margin-top: 50px;
+        
+        max-width: 1600px;
+        display: flex;
+        justify-content: center;
+
+        .Thirdsection_div {
+            .Thirdsection_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .Thirdsection_text1 {
+                    font-size: 32px;
+                    color: white;
+                    font-weight: 800;
+
+                }
+
+                .Thirdsection_text2 {
+                    font-size: 16px;
+                    color: white;
+                    margin-top: 12px;
+                }
+            }
+            .Thirdsection_card{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 45px;
+                gap: 32px;
+                margin-bottom: 60px;
+                .Card{
+                    display: flex;
+                    flex-direction: column;
+                     .Card_div1{
+                        font-size: 22px;
+                        color: white;
+                        font-weight: 700;
+                        margin-top: 12px;
+                     }
+                     .Card_div2{
+                        font-size: 16px;
+                        color: white;
+                        margin-top: 12px;
+                     }
+                }
+            }
+        }
+    }
+}

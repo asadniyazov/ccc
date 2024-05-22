@@ -1,0 +1,60 @@
+.Navbar{
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    // position: fixed;
+    max-width: 2500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .Navbar_container{
+        max-width: 1200px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        .Navbar_item2{
+            display: flex;
+            height: 100px;
+            max-width:1000px ;
+            .Navbar_item2_ul{
+                max-width: 1000px;
+                display: flex;
+                align-items: center;
+                .Navbar_item2_list{
+                    display: flex;
+                    max-width: 1000px;
+                    li{
+                        margin-left: 100px;
+                        a{
+                            font-size: 22px;
+                            color: black;
+                            &:hover{
+                                color: pink;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .hiddenbtn{
+            display: none;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .Navbar{
+        
+        .Navbar_container{
+            .Navbar_item2{
+                display: none;
+            }
+            .hiddenbtn{
+                display: block;
+            }
+        }
+    }
+}
